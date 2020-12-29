@@ -335,6 +335,8 @@ p {
 .member-name {
   padding-top: 30px;
   padding-bottom: 30px;
+
+  background-color: #fff;
 }
 
 .member {
@@ -643,6 +645,9 @@ p {
 }
 
 .works-item > .link:focus {
+  display: block;
+  outline: none;
+
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
